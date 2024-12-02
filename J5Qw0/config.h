@@ -3,7 +3,8 @@
   See config.h options at https://docs.qmk.fm/#/config_options?id=the-configh-file
 */
 
-#define ORYX_CONFIGURATOR
+#define PERMISSIVE_HOLD
+
 #define USB_SUSPEND_WAKEUP_DELAY 0
 #undef MOUSEKEY_INTERVAL
 #define MOUSEKEY_INTERVAL 15
@@ -24,9 +25,7 @@
 #define MOUSEKEY_WHEEL_TIME_TO_MAX 49
 
 #define CAPS_LOCK_STATUS
-#define FIRMWARE_VERSION u8"J5Qw0/EjEBv"
-#define RAW_USAGE_PAGE 0xFF60
-#define RAW_USAGE_ID 0x61
+#define SERIAL_NUMBER "J5Qw0/wZN5d"
 #define LAYER_STATE_8BIT
 #define COMBO_COUNT 2
 
